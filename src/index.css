@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.silver{
+    background: #d3f5ff;
+}
+
+.gold{
+    background: #e3f7b2;
+}
+
+.platinum{
+   background: #ffc7a7;
+}
+
+
+.service-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)),
+      url("../../assets/bg/service.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
