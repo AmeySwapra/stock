@@ -2,9 +2,10 @@ import { Box, Container, Flex, Heading, Text, Button, useDisclosure } from "@cha
 import InquiryModal from "../Modal/InquiryModal";
 import bob from '../../assets/modal/blob.svg';
 
+
 const InquiryForm = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
-
+  const bobUrl = new URL(bob, import.meta.url).href;
   return (
     <Box as="section" px={{ base: 4, md: 8, lg: 24 }} boxShadow="lg"  py={10} position="relative">
       <Container maxW="container.xl">
@@ -26,7 +27,7 @@ const InquiryForm = () => {
             right="-90px"
             width="350px"
             height="350px"
-            backgroundImage={`url(${bob})`}
+            backgroundImage={`url(${bobUrl})`}
             backgroundRepeat="no-repeat"
             backgroundSize="contain"
             zIndex={1}

@@ -14,7 +14,7 @@ const Contact = () => {
         Your details will not be shared. Compulsory fields are marked.
       </Text>
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
-        <Card bg="#fbfcfd" p={6} borderRadius="lg" border={'1px solid black'}   boxShadow="20px 10px 0px black" >
+        <Card bg="#fbfcfd" p={6} borderRadius="lg" border={'1px solid black'}   boxShadow="10px 10px 0px black" >
           <CardBody>
             <VStack spacing={4} as="form">
               <FormControl isRequired>
