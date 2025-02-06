@@ -9,11 +9,13 @@ import Courses from '../components/Courses'
 import Counter from '../components/Counter'
 import Testimonial from '../components/Testimonial'
 import ImportanceOfTrading from '../components/ImportanceOfTrading'
+import Topbar from '../components/common/Topbar'
 
 
 function HomePage() {
   return (
     <>
+      <Topbar/>
       <Header/>
       <Carousel/>
       <AboutSection/>
